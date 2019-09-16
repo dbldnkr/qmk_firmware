@@ -16,7 +16,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 	case EZGAME:
 		if (record->event.pressed) {
 			// ez
-			SEND_STRING("ez game, ez life")
+			SEND_STRING("ez game, ez life");
 		} else {
 			// Release key
 		}
