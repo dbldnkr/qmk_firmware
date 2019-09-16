@@ -57,6 +57,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	[0] = LAYOUT(KC_7, KC_8, KC_9, KC_4, KC_5, KC_6, KC_1, KC_2, KC_3, LT(3,KC_PDOT), KC_P0, KC_ENT),
 	[1] = LAYOUT(KC_TRNS, KC_HOME, KC_PGUP, KC_TRNS, KC_END, KC_PGDN, LCTL(KC_Z), LCTL(KC_C), LCTL(KC_V), MO(3), KC_TRNS, KC_DOT),
-	[2] = LAYOUT(KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, MO(3), KC_TRNS, KC_NO),
+	[2] = LAYOUT(KC_NO, KC_NO, KC_NO, KC_NO, PREV_DESKTOP, NEXT_DESKTOP, KC_NO, KC_NO, KC_NO, MO(3), KC_TRNS, KC_NO),
 	[3] = LAYOUT(KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, TO(1), TO(2), KC_NO, KC_TRNS, TO(0), KC_NO)
 };
